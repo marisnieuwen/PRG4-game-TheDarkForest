@@ -17,7 +17,7 @@ export class Unicorn extends PIXI.Sprite {
 
   update(delta: number) {
     if (this.alive) {
-      // this is for shaking if you want that ??
+      // Bewegende unicorns
       // this.x += Math.random() * 4 - 1;
       // this.y += Math.random() * 4 - 1;
     }
